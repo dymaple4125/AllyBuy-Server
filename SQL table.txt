@@ -88,6 +88,13 @@ unique(admin_name),
 unique(email)
 )engine=myisam default charset=utf8;
 
+/**article table**/
+CREATE TABLE allybuy_article(
+article_id int(20) unsigned not null auto_increment,
+article_content text not null default '',
+primary key(article_id)
+)engine=myisam default charset=utf8;
+
 /**order table**/
 CREATE TABLE allybuy_order(
 user_id int(32) unsigned not null,
