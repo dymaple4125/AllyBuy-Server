@@ -19,11 +19,11 @@ index(user_id)
 /** category table**/
 CREATE TABLE allybuy_category(
 category_id tinyint(8) unsigned not null auto_increment,
-name varchar(100) not null default '',
-description varchar(255) not null default '',
+category_name varchar(100) not null default '',
+category_desc varchar(255) not null default '',
 created timestamp not null default current_timestamp,
 primary key(category_id),
-unique(name),
+unique(category_name),
 index(category_id)
 )engine=myisam default charset=utf8;
 
@@ -31,22 +31,23 @@ index(category_id)
 /** brand table**/
 CREATE TABLE allybuy_brand(
 brand_id smallint(16) unsigned not null auto_increment,
-name varchar(100) not null default '',
-description varchar(255) not null default '',
+brand_name varchar(100) not null default '',
+brand_desc varchar(255) not null default '',
 created timestamp not null default current_timestamp,
+modified timestamp not null default current_timestamp,
 primary key(brand_id),
-unique(name),
+unique(brand_name),
 index(brand_id)
 )engine=myisam default charset=utf8;
 
 /** item table**/
 CREATE TABLE allybuy_item(
 item_id int(20) unsigned not null auto_increment,
-name varchar(200) not null default '',
+item_name varchar(200) not null default '',
 thumb varchar(100) not null default '',
-img varchar(255) not null default '',
-description text not null default '',
-brand varchar(100) not null default '',
+imgs varchar(255) not null default '',
+item_desc text not null default '',
+item_brand varchar(100) not null default '',
 origin_place varchar(100) not null default '',
 tags varchar(255) not null default '',
 deadline date default null,
@@ -55,7 +56,7 @@ link varchar(255) not null default '',
 status tinyint(1) not null default 0,
 created timestamp not null default current_timestamp,
 primary key(item_id),
-unique(name),
+unique(item_name),
 unique(thumb),
 index(item_id)
 )engine=myisam default charset=utf8;
@@ -63,7 +64,7 @@ index(item_id)
 /**admin table**/
 CREATE TABLE allybuy_admin(
 admin_id tinyint(5) unsigned not null auto_increment,
-name varchar(100) not null default '',
+admin_name varchar(100) not null default '',
 password varchar(255) not null default '',
 email varchar(100) not null default '',
 contact varchar(100) not null default '',
@@ -72,7 +73,7 @@ login_ip varchar(20) not null default '0.0.0.0',
 login_time timestamp default null,
 created timestamp not null default current_timestamp,
 primary key(admin_id),
-unique(name),
+unique(admin_name),
 unique(email)
 )engine=myisam default charset=utf8;
 

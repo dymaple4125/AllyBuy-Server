@@ -31,21 +31,21 @@ and open the template in the editor.
         <script type="text/javascript" charset="utf8" src="__PUBLIC__/datatables/js/dataTables.tableTools.min.js"></script>
 
         <!--load header or footer template -->
-        
+
         <script>
-        
+
             $(function(){
                 $('#main_nav').load("__PUBLIC__/html/nav.html", function(){
-                    $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆Majorbox后台系统");
+                    $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆猎购盟后台系统");
                 });
-                
+
             });
-                
-          
+
+
         </script>
     </head>
     <body>
-        
+
         <!--        header-->
         <div id="main_nav"></div>
         <div class="container">

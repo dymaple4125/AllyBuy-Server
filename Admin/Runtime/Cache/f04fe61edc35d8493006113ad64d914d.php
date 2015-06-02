@@ -43,7 +43,7 @@ and open the template in the editor.
             $(function(){
                
                 $('#main_nav').load("__PUBLIC__/html/nav.html", function(){
-                    $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆Majorbox后台系统");
+                    $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆猎购盟后台系统");
                 });
             });
         </script></head><body><!--        header--><div id="main_nav"></div><!--        content--><div class="container-fluid"><div class="row"><div class="main"><ol class="breadcrumb"><li><a href="<?php echo U('index');?>">Subject</a></li><li class="active">add</li></ol><div id="alert_fail" class="alert alert-danger" hidden role="alert">没有插入成功</div><div id="alert_success" class="alert alert-success" hidden role="alert">插入成功</div><div class="form-group"><label for="subjectInput">Subject Name</label><input type="text" class="form-control" id="subject_name_input" name="subject_name" placeholder="Add a new subject name"></div><button id="submit_btn" class="btn btn-default">Submit</button></div></div></div></body></html>

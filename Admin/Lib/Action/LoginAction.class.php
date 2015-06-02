@@ -37,7 +37,7 @@ class LoginAction extends Action{
         $username   =   I('username');
         $password   =   I('password', '', 'md5');
 
-        $admin   =   M('admin')->where(array('name'=>$username))->find();
+        $admin   =   M('admin')->where(array('admin_name'=>$username))->find();
 
         if(!$admin || $admin['password']!= $password){
             $this->error('用户名密码错误');
@@ -58,7 +58,7 @@ class LoginAction extends Action{
 
         //write session
         session('admin_id', $admin['admin_id']);
-        session('admin_name', $admin['name']);
+        session('admin_name', $admin['admin_name']);
         session('login_time', date("Y-m-d H:i:s", $admin['login_time']));
         session('login_ip', $admin['login_ip']);
 
@@ -72,16 +72,16 @@ class LoginAction extends Action{
         if(!IS_POST) halt('页面不存在');
 
         $data   =   array(
-            'name'=>I('username'),
+            'admin_name'=>I('username'),
             'password'=>I('password', '', 'md5'),
             'email'=>I('email'),
             'contact'=>I('contact')
         );
 
-        $name =   $data['name'];
+        $admin_name =   $data['admin_name'];
         $email  =   $data['email'];
 
-        if(M('admin')->where("name='$name' || email='$email'")->find()){
+        if(M('admin')->where("admin_name='$name' || email='$email'")->find()){
             $this->error('注册的用户名或邮箱已经存在');
         }
 

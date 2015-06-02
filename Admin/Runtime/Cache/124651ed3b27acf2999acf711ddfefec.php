@@ -45,7 +45,7 @@ and open the template in the editor.
 
             $(function(){
                 $('#main_nav').load("__PUBLIC__/html/nav.html", function(){
-                    $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆Majorbox后台系统");
+                    $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆猎购盟后台系统");
                 });
 
                 var table = $('#datatable').DataTable({
@@ -58,8 +58,8 @@ and open the template in the editor.
                         { data: "admin_name"},
                         { data: "email"},
                         { data: "contact"},
-                        { data: "logintime"},
-                        { data: "loginip"},
+                        { data: "login_time"},
+                        { data: "login_ip"},
                         { mRender: function(data, type, full) {
                                 //get status value
                                 var status  =   full['status'];
@@ -180,8 +180,8 @@ and open the template in the editor.
                                 <th width="10%">Admin name</th>
                                 <th width="20%">Email</th>
                                 <th width="20%">Contact</th>
-                                <th width="20%">Time</th>
-                                <th width="10%">IP</th>
+                                <th width="20%">Last login time</th>
+                                <th width="10%">Last login IP</th>
                                 <th width="5%">status</th>
                             </tr>
                         </thead>

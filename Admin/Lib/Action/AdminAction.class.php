@@ -9,7 +9,7 @@
 class AdminAction extends CommonAction{
 
     public function index(){
-        $this->assign('admin_name', $_SESSION['admin_name'])->assign('admin_name', $_SESSION['admin_name'])->display();
+        $this->assign('admin_name', $_SESSION['admin_name'])->display();
     }
 
     //view alladmin
@@ -60,58 +60,10 @@ class AdminAction extends CommonAction{
         $result =  M('admin')->where("admin_id=$admin_id")->find();
 
         //display
-        $this->assign('admin', $result)->assign('admin_name', $_SESSION['admin_name'])->assign('admin_name', $_SESSION['admin_name'])->display();
+        $this->assign('admin', $result)->assign('admin_name', $_SESSION['admin_name'])->display();
 
     }
 
-
-    //insertadmin record
-    public function insert(){
-
-        //avoid access except ajax
-        if(!IS_AJAX) halt("页面错误");
-
-        //create insert field
-        $data   =   array(
-            'admin_name'=>I('admin_name')
-        );
-
-        //insert data into database
-        if(M('admin')->data($data)->add())
-        {
-            $this->ajaxReturn(array('status'=>1));
-        }
-        //if insert data fail
-        else
-        {
-            $this->ajaxReturn(array('status'=>0), 'json');
-        }
-    }
-
-
-    public function update(){
-
-        if(!IS_AJAX) halt("页面错误");
-
-        $admin_id =   I('admin_id');
-
-        //create insert field
-        $data   =   array(
-            'admin_name'=>I('admin_name')
-        );
-
-        //insert data into database
-        if(M('admin')->where("admin_id=$admin_id")->save($data))
-        {
-            $this->ajaxReturn(array('status'=>1));
-        }
-        //if insert data fail
-        else
-        {
-            $this->ajaxReturn(array('status'=>0), 'json');
-        }
-
-    }
 
     //deleteadmin record
     public function delete(){
@@ -138,7 +90,7 @@ class AdminAction extends CommonAction{
         //destrop session
         session_unset();
         session_destroy();
-        
+
         //redirect
         $this->success('您已经成功登出', U('login/index', '', ''));
     }

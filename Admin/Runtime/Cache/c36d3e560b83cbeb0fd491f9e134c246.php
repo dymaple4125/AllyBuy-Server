@@ -78,7 +78,7 @@ and open the template in the editor.
             
             $(function(){
                
-               $('#main_nav').load("__PUBLIC__/html/nav.html", function(){                     $('#admin_name').html("{$admin_name}，欢迎登陆Majorbox后台系统");                 });
+               $('#main_nav').load("__PUBLIC__/html/nav.html", function(){                     $('#admin_name').html("{$admin_name}，欢迎登陆猎购盟后台系统");                 });
                $('#side_nav').load("__PUBLIC__/html/basic.info.side.nav.html");
                
             });

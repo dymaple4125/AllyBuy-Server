@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -22,67 +22,81 @@ and open the template in the editor.
         <!--load header or footer template -->
         <script>
             $(function(){
-               
-               //background action
+
+               //brand action
                $('#submit_btn').click(function(e){
-                   
-                   var background_name =   $("input[name=background_name]");
-                   
-                   if(background_name.val()==''){
-                       alert('background name不能为空');
-                       background_name.focus();
+
+                   var brand_name =   $("input[name=brand_name]");
+                   var brand_desc =   $("input[name=brand_desc]");
+                   var brand_id   =   <?php echo ($brand['brand_id']); ?>;
+
+                   if(brand_name.val()==''){
+                       alert('brand name不能为空');
+                       brand_name.focus();
                        return;
                    }
-                   
-                   
-                   $.post("{:U('insert', '', '')}",{background_name:background_name.val()},function(data){
+
+                   if(brand_desc.val()==''){
+                       alert('brand desc不能为空');
+                       brand_desc.focus();
+                       return;
+                   }
+
+                   $.post("<?php echo U('update', '', '');?>",{brand_id:brand_id, brand_name:brand_name.val(), brand_desc:brand_desc.val()},function(data){
                         //add fail
                         if(data['status']==0){
-                            $('#alert_fail').html("添加《"+background_name.val()+"》不成功，请再试");
+                            $('#alert_fail').html("更新《"+brand_name.val()+"》不成功，请再试");
                             $('#alert_fail').attr('hidden', false);
                         }
                         //add success
-                        else if(data['status']==1) { 
-                            $('#alert_success').html("添加《"+background_name.val()+"》成功");
+                        else if(data['status']==1) {
+                            $('#alert_success').html("更新《"+brand_name.val()+"》成功");
                             $('#alert_success').attr('hidden', false);
-                            background_name.val('');
                         }
-                       
+
                    }, 'json');
                });
-        
+
                $('input').focus(function(e){
                    $('#alert_fail').attr('hidden', true);
                    $('#alert_success').attr('hidden', true);
                });
-        
+
             });
-            
+
             $(function(){
-               
-               $('#main_nav').load("__PUBLIC__/html/nav.html", function(){                     
-                   $('#admin_name').html("{$admin_name}，欢迎登陆Majorbox后台系统");                
+
+               $('#main_nav').load("__PUBLIC__/html/nav.html", function(){
+                   $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆猎购盟后台系统");
                });
-               
             });
         </script>
     </head>
     <body>
 <!--        header-->
+    <!--        header-->
         <div id="main_nav"></div>
-<!--        content-->
+
         <div class="container-fluid">
             <div class="row">
                 <div class="main">
                     <ol class="breadcrumb">
-                        <li><a href="{:U('index')}">Background</a></li>
-                        <li class="active">add</li>
+                        <li><a href="<?php echo U('index');?>">Brand</a></li>
+                        <li class="active">edit</li>
                     </ol>
                     <div id="alert_fail" class="alert alert-danger" hidden role="alert">没有插入成功</div>
                     <div id="alert_success" class="alert alert-success" hidden role="alert">插入成功</div>
                     <div class="form-group">
-                      <label for="backgroundInput">Background Name</label>
-                      <input type="text" class="form-control" id="background_name_input" name="background_name" placeholder="Add a new background name">
+                      <label>brand ID</label>
+                      <p style="color: gray;">#<?php echo ($brand['brand_id']); ?></p>
+                    </div>
+                    <div class="form-group">
+                      <label for="brandInput">Brand Name</label>
+                      <input type="text" value="<?php echo ($brand['brand_name']); ?>" class="form-control" id="brand_name_input" name="brand_name" placeholder="Add a new brand name">
+                    </div>
+                    <div class="form-group">
+                      <label for="brandInput">Brand Description</label>
+                      <input type="text" value="<?php echo ($brand['brand_desc']); ?>" class="form-control" id="brand_name_input" name="brand_desc" placeholder="Add a short description for brand">
                     </div>
                     <button id="submit_btn" class="btn btn-default">Submit</button>
                 </div>
