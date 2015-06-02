@@ -41,6 +41,7 @@ and open the template in the editor.
                        return;
                    }
 
+
                    $.post("<?php echo U('insert', '', '');?>",{category_name:category_name.val(), category_desc:category_desc.val()},function(data){
                         //add fail
                         if(data['status']==0){
@@ -88,12 +89,12 @@ and open the template in the editor.
                     <div id="alert_fail" class="alert alert-danger" hidden role="alert">没有插入成功</div>
                     <div id="alert_success" class="alert alert-success" hidden role="alert">插入成功</div>
                     <div class="form-group">
-                      <label for="categoryInput">category Name</label>
+                      <label for="categoryInput">Category Name</label>
                       <input type="text" class="form-control" id="category_name_input" name="category_name" placeholder="Add a new category name">
                     </div>
                     <div class="form-group">
-                      <label for="categoryInput">category Description</label>
-                      <input type="text" class="form-control" id="category_name_input" name="category_desc" placeholder="Add a short description for category">
+                      <label for="categoryInput">Category Description</label>
+                      <input type="text" value="<?php echo ($category['category_desc']); ?>" class="form-control" id="category_name_input" name="category_desc" placeholder="Add a short description for category">
                     </div>
                     <button id="submit_btn" class="btn btn-default">Submit</button>
                 </div>

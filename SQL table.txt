@@ -39,6 +39,17 @@ unique(brand_name),
 index(brand_id)
 )engine=myisam default charset=utf8;
 
+/** tas table**/
+CREATE TABLE allybuy_tag(
+tag_id smallint(10) unsigned not null auto_increment,
+tag_name varchar(20) not null default '',
+last_modify timestamp not null default current_timestamp,
+primary key(tag_id),
+unique(tag_name),
+index(tag_id)
+)engine=myisam default charset=utf8;
+
+
 /** item table**/
 CREATE TABLE allybuy_item(
 item_id int(20) unsigned not null auto_increment,

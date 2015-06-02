@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -23,37 +23,28 @@ and open the template in the editor.
         <script>
             $(function(){
 
-               //category action
+               //tag action
                $('#submit_btn').click(function(e){
 
-                   var category_name =   $("input[name=category_name]");
-                   var category_desc =   $("input[name=category_desc]");
+                   var tag_name =   $("input[name=tag_name]");
+                   var tag_id   =   <?php echo ($tag['tag_id']); ?>;
 
-                   if(category_name.val()==''){
-                       alert('category name不能为空');
-                       category_name.focus();
+                   if(tag_name.val()==''){
+                       alert('tag name不能为空');
+                       tag_name.focus();
                        return;
                    }
 
-                   if(category_desc.val()==''){
-                       alert('category desc不能为空');
-                       category_desc.focus();
-                       return;
-                   }
-
-
-                   $.post("{:U('insert', '', '')}",{category_name:category_name.val(), category_desc:category_desc.val()},function(data){
+                   $.post("<?php echo U('update', '', '');?>",{tag_id:tag_id, tag_name:tag_name.val()},function(data){
                         //add fail
                         if(data['status']==0){
-                            $('#alert_fail').html("添加《"+category_name.val()+"》不成功，请再试");
+                            $('#alert_fail').html("更新《"+tag_name.val()+"》不成功，请再试");
                             $('#alert_fail').attr('hidden', false);
                         }
                         //add success
                         else if(data['status']==1) {
-                            $('#alert_success').html("添加《"+category_name.val()+"》成功");
+                            $('#alert_success').html("更新《"+tag_name.val()+"》成功");
                             $('#alert_success').attr('hidden', false);
-                            category_name.val('');
-                            category_desc.val('');
                         }
 
                    }, 'json');
@@ -69,32 +60,32 @@ and open the template in the editor.
             $(function(){
 
                $('#main_nav').load("__PUBLIC__/html/nav.html", function(){
-                   $('#admin_name').html("{$admin_name}，欢迎登陆猎购盟后台系统");
+                   $('#admin_name').html("<?php echo ($admin_name); ?>，欢迎登陆猎购盟后台系统");
                });
-
             });
         </script>
     </head>
     <body>
 <!--        header-->
+    <!--        header-->
         <div id="main_nav"></div>
-<!--        content-->
+
         <div class="container-fluid">
             <div class="row">
                 <div class="main">
                     <ol class="breadcrumb">
-                        <li><a href="{:U('index')}">category</a></li>
-                        <li class="active">add</li>
+                        <li><a href="<?php echo U('index');?>">tag</a></li>
+                        <li class="active">edit</li>
                     </ol>
                     <div id="alert_fail" class="alert alert-danger" hidden role="alert">没有插入成功</div>
                     <div id="alert_success" class="alert alert-success" hidden role="alert">插入成功</div>
                     <div class="form-group">
-                      <label for="categoryInput">Category Name</label>
-                      <input type="text" class="form-control" id="category_name_input" name="category_name" placeholder="Add a new category name">
+                      <label>Tag ID</label>
+                      <p style="color: gray;">#<?php echo ($tag['tag_id']); ?></p>
                     </div>
                     <div class="form-group">
-                      <label for="categoryInput">Category Description</label>
-                      <input type="text" value="{$category['category_desc']}" class="form-control" id="category_name_input" name="category_desc" placeholder="Add a short description for category">
+                      <label for="tagInput">Tag Name</label>
+                      <input type="text" value="<?php echo ($tag['tag_name']); ?>" class="form-control" id="tag_name_input" name="tag_name" placeholder="Add a new tag name">
                     </div>
                     <button id="submit_btn" class="btn btn-default">Submit</button>
                 </div>
