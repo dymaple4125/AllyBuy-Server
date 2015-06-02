@@ -66,9 +66,9 @@ and open the template in the editor.
                     pagingType : "full_numbers",
                     order: [3, "desc"],
                     "columns": [
-                        { data: "brand_id"},
-                        { data: "brand_name"},
-                        { data: "brand_desc"},
+                        { data: "category_id"},
+                        { data: "category_name"},
+                        { data: "category_desc"},
                         { data: "last_modify"}
                     ]
                 });
@@ -96,7 +96,7 @@ and open the template in the editor.
 
                     var id  =   table.cell('.selected', 0).data();
 
-                    location.href   =   "<?php echo U('/brand/edit/brand_id/"+id+"', '', '');?>";
+                    location.href   =   "<?php echo U('/category/edit/category_id/"+id+"', '', '');?>";
                 });
 
                 $('#btn_delete').click( function () {
@@ -111,7 +111,7 @@ and open the template in the editor.
                     $('#remove_modal button[name=remove_btn]').click(function(){
                         $('#remove_modal').modal('hide');
                         //post data to delete
-                        $.post("<?php echo U('delete', '', '');?>", {brand_id:table.cell('.selected', 0).data()},
+                        $.post("<?php echo U('delete', '', '');?>", {category_id:table.cell('.selected', 0).data()},
                         function(data){
                             //delete fail
                             if(data['status']==0)
@@ -141,7 +141,7 @@ and open the template in the editor.
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">删除</h4>
+                    <h4 class="modal-title" >删除</h4>
                 </div>
                 <div class="modal-body">
                   <p></p>
@@ -161,7 +161,7 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="main" style="margin-left: 10px; margin-right: 10px;">
                 <ol class="breadcrumb">
-                    <li class="active">brand</li>
+                    <li class="active">category</li>
                 </ol>
                 <div id="alert_fail" class="alert alert-danger" hidden role="alert">删除未成功</div>
                 <div id="alert_success" class="alert alert-success" hidden role="alert">删除成功</div>
@@ -169,15 +169,15 @@ and open the template in the editor.
                     <div class="btn-group btn-group-sm" role="group"  aria-label="todo">
                         <button id="btn_add" type="button" class="btn btn-success">
                             <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                            添加一个brand
+                            添加一个category
                         </button>
                         <button id="btn_edit" type="button" class="btn btn-default">
                             <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                            编辑一个brand
+                            编辑一个category
                         </button>
                         <button  id="btn_delete" type="button" class="btn btn-danger">
                             <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                            删除一个brand
+                            删除一个category
                         </button>
                     </div>
 
@@ -187,8 +187,8 @@ and open the template in the editor.
                         <thead>
                             <tr>
                                 <th width="5%">#</th>
-                                <th width="40%">Brand Name</th>
-                                <th width="40%">Brand Description</th>
+                                <th width="40%">Category Name</th>
+                                <th width="40%">Category Description</th>
                                 <th width="15%">Last Modify</th>
                             </tr>
                         </thead>
