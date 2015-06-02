@@ -1,0 +1,693 @@
+[ 2015-05-08T10:07:00+08:00 ] 192.168.11.3 /index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_user` WHERE ( `email` = 'dingyou@gmail.com' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `zebra_user` (`email`,`nick_name`,`sex`,`home_town`,`password`) VALUES ('dingyou@gmail.com','Dashabijjj',1,'Beijing','2e9ec317e197819358fbc43afca7d837') [ RunTime:0.197011s ]
+
+[ 2015-05-08T10:07:59+08:00 ] 192.168.11.3 /index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_user` WHERE ( `email` = 'dingyou@gmail.com' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:08:42+08:00 ] 192.168.11.3 /index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_user` WHERE ( `email` = 'dingyou123456@gmail.com' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `zebra_user` (`email`,`nick_name`,`sex`,`home_town`,`password`) VALUES ('dingyou123456@gmail.com','Dashabijjj',1,'Beijing','2e9ec317e197819358fbc43afca7d837') [ RunTime:0.028002s ]
+
+[ 2015-05-08T10:10:44+08:00 ] 192.168.11.3 /index.php/user/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_user` WHERE ( `email` = 'dingyou1234567@gmail.com' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `zebra_user` (`email`,`nick_name`,`sex`,`home_town`,`password`) VALUES ('dingyou1234567@gmail.com','Dashabijjj',1,'Beijing','2e9ec317e197819358fbc43afca7d837') [ RunTime:0.035002s ]
+
+[ 2015-05-08T10:10:58+08:00 ] 192.168.11.3 /index.php/user/loginbyemail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:loginbyemail
+
+[ 2015-05-08T10:12:05+08:00 ] 192.168.11.3 /index.php/user/loginbyemail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:loginbyemail
+
+[ 2015-05-08T10:13:24+08:00 ] 192.168.11.3 /index.php/user/emaillogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `user_id` FROM `zebra_user` WHERE ( `email` = 'dingyou1234567@gmail.com' ) AND ( `password` = '2e9ec317e197819358fbc43afca7d837' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:13:25+08:00 ] 192.168.11.3 /index.php/user/view/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT user.*,subject.subject_name,country.country_name,experience.experience_name,background.background_name FROM `zebra_user` `user`,`zebra_subject` `subject`,`zebra_country` `country`,`zebra_experience` `experience`,`zebra_background` `background` WHERE ( user.country_id=country.country_id AND user.subject_id=subject.subject_id AND user.experience_id=experience.experience_id AND user.background_id=background.background_id AND user_id=1057 )  [ RunTime:0.002000s ]
+
+[ 2015-05-08T10:13:25+08:00 ] 192.168.11.3 /index.php/follow/viewmajor/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_follow` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_follow` `follow`,`zebra_department` `department`,`zebra_university` `university` WHERE ( follow.major_id=major.major_id AND major.department_id=department.department_id AND department.university_id=university.university_id AND follow.user_id=1057 )  [ RunTime:0.137008s ]
+
+[ 2015-05-08T10:23:23+08:00 ] 192.168.11.3 /index.php/user/view/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT user.*,subject.subject_name,country.country_name,experience.experience_name,background.background_name FROM `zebra_user` `user`,`zebra_subject` `subject`,`zebra_country` `country`,`zebra_experience` `experience`,`zebra_background` `background` WHERE ( user.country_id=country.country_id AND user.subject_id=subject.subject_id AND user.experience_id=experience.experience_id AND user.background_id=background.background_id AND user_id=1057 )  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:23:23+08:00 ] 192.168.11.3 /index.php/follow/viewmajor/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_follow` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_follow` `follow`,`zebra_department` `department`,`zebra_university` `university` WHERE ( follow.major_id=major.major_id AND major.department_id=department.department_id AND department.university_id=university.university_id AND follow.user_id=1057 )  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:24:28+08:00 ] 192.168.11.3 /index.php/user/view/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT user.*,subject.subject_name,country.country_name,experience.experience_name,background.background_name FROM `zebra_user` `user`,`zebra_subject` `subject`,`zebra_country` `country`,`zebra_experience` `experience`,`zebra_background` `background` WHERE ( user.country_id=country.country_id AND user.subject_id=subject.subject_id AND user.experience_id=experience.experience_id AND user.background_id=background.background_id AND user_id=1057 )  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:24:28+08:00 ] 192.168.11.3 /index.php/follow/viewmajor/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_follow` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_follow` `follow`,`zebra_department` `department`,`zebra_university` `university` WHERE ( follow.major_id=major.major_id AND major.department_id=department.department_id AND department.university_id=university.university_id AND follow.user_id=1057 )  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:24:38+08:00 ] 192.168.11.3 /index.php/country/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_country` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `country_id`,`country_name` FROM `zebra_country` ORDER BY country_id  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:28:39+08:00 ] 192.168.11.3 /index.php/background/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_background`  [ RunTime:0.006000s ]
+
+[ 2015-05-08T10:28:42+08:00 ] 192.168.11.3 /index.php/subject/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.012001s ]
+
+[ 2015-05-08T10:28:45+08:00 ] 192.168.11.3 /index.php/user/updateAppInfo/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+SQL: UPDATE `zebra_user` SET `country_id`=0,`subject_id`=13,`experience_id`=0,`background_id`=0,`TOEFL`=0,`IELTS`='0.0',`GRE`=0,`GMAT`=0,`GPA`='0.00' WHERE ( user_id=1057 ) [ RunTime:0.041002s ]
+
+[ 2015-05-08T10:29:01+08:00 ] 192.168.11.3 /index.php/country/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_country` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `country_id`,`country_name` FROM `zebra_country` ORDER BY country_id  [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:29:07+08:00 ] 192.168.11.3 /index.php/user/updateAppInfo/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+SQL: UPDATE `zebra_user` SET `country_id`=9,`subject_id`=13,`experience_id`=0,`background_id`=0,`TOEFL`=0,`IELTS`='0.0',`GRE`=0,`GMAT`=0,`GPA`='0.00' WHERE ( user_id=1057 ) [ RunTime:0.046003s ]
+
+[ 2015-05-08T10:29:10+08:00 ] 192.168.11.3 /index.php/major/recommandbyuser/1057/0/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zebra_major` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `subject_id`,`country_id`,`TOEFL`,`IELTS`,`GRE`,`GMAT`,`GPA`,`value` FROM `zebra_user` `user`,`zebra_experience` `experience` WHERE ( user.experience_id=experience.experience_id AND user_id=1057 )  [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_department` `department`,`zebra_university` `university`,`zebra_district` `district` WHERE ( major.department_id=department.department_id AND department.university_id=university.university_id AND university.district_id=district.district_id AND district.country_id=9 AND major.subject_id=13  AND major.experience_min<=0 AND ((major.TOEFL_min<=0) OR (major.IELTS_min<=0.0)) AND ((major.GRE_min<=0) OR (major.GMAT_min<=0)) AND (major.GPA_min<=0.00) ) ORDER BY major.deadline DESC LIMIT 0, 20   [ RunTime:0.126007s ]
+
+[ 2015-05-08T10:29:14+08:00 ] 192.168.11.3 /index.php/major/recommandbyuser/1057/20/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zebra_major` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `subject_id`,`country_id`,`TOEFL`,`IELTS`,`GRE`,`GMAT`,`GPA`,`value` FROM `zebra_user` `user`,`zebra_experience` `experience` WHERE ( user.experience_id=experience.experience_id AND user_id=1057 )  [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_department` `department`,`zebra_university` `university`,`zebra_district` `district` WHERE ( major.department_id=department.department_id AND department.university_id=university.university_id AND university.district_id=district.district_id AND district.country_id=9 AND major.subject_id=13  AND major.experience_min<=0 AND ((major.TOEFL_min<=0) OR (major.IELTS_min<=0.0)) AND ((major.GRE_min<=0) OR (major.GMAT_min<=0)) AND (major.GPA_min<=0.00) ) ORDER BY major.deadline DESC LIMIT 20, 20   [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:29:58+08:00 ] 192.168.11.3 /index.php/country/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_country` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `country_id`,`country_name` FROM `zebra_country` ORDER BY country_id  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:30:01+08:00 ] 192.168.11.3 /index.php/country/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_country` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `country_id`,`country_name` FROM `zebra_country` ORDER BY country_id  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:31:11+08:00 ] 192.168.11.3 /index.php/service/draw/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_service` [ RunTime:0.027001s ]
+SQL: SHOW COLUMNS FROM `zebra_prize` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `quota` FROM `zebra_user` WHERE ( user_id=1057 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `service_id`,`quota` FROM `zebra_service`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zebra_prize` WHERE ( user_id=1057 AND service_id=3 ) LIMIT 1   [ RunTime:0.025001s ]
+SQL: UPDATE `zebra_service` SET `quota`=quota-1 WHERE ( service_id=3 ) [ RunTime:0.033002s ]
+SQL: INSERT INTO `zebra_prize` (`user_id`,`service_id`) VALUES (1057,3) [ RunTime:0.028002s ]
+SQL: UPDATE `zebra_user` SET `quota`=quota-1 WHERE ( user_id=1057 ) [ RunTime:0.025001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_service` WHERE ( service_id=3 )  [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:31:17+08:00 ] 192.168.11.3 /index.php/service/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_service` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_service` ORDER BY category  [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:31:18+08:00 ] 192.168.11.3 /index.php/prize/view/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_prize` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `service_id` FROM `zebra_prize` WHERE ( user_id= )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `service_id` FROM `zebra_prize` WHERE ( user_id= ) 
+
+[ 2015-05-08T10:31:29+08:00 ] 192.168.11.3 /index.php/prize/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_prize` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_prize`  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:34:49+08:00 ] 192.168.11.3 /index.php/user/updateAppInfo/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.000000s ]
+SQL: UPDATE `zebra_user` SET `country_id`=9,`subject_id`=13,`experience_id`=0,`background_id`=0,`TOEFL`=0,`IELTS`='0.0',`GRE`=0,`GMAT`=0,`GPA`='0.00' WHERE ( user_id=1057 ) [ RunTime:0.031200s ]
+
+[ 2015-05-08T10:44:38+08:00 ] 192.168.11.3 /index.php/user/view/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT user.*,subject.subject_name,country.country_name,experience.experience_name,background.background_name FROM `zebra_user` `user`,`zebra_subject` `subject`,`zebra_country` `country`,`zebra_experience` `experience`,`zebra_background` `background` WHERE ( user.country_id=country.country_id AND user.subject_id=subject.subject_id AND user.experience_id=experience.experience_id AND user.background_id=background.background_id AND user_id=1057 )  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:44:38+08:00 ] 192.168.11.3 /index.php/follow/viewmajor/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_follow` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_follow` `follow`,`zebra_department` `department`,`zebra_university` `university` WHERE ( follow.major_id=major.major_id AND major.department_id=department.department_id AND department.university_id=university.university_id AND follow.user_id=1057 )  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:45:28+08:00 ] 192.168.11.3 /index.php/service/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_service` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_service` ORDER BY category  [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:45:29+08:00 ] 192.168.11.3 /index.php/prize/view/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_prize` [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `service_id` FROM `zebra_prize` WHERE ( user_id= )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `service_id` FROM `zebra_prize` WHERE ( user_id= ) 
+
+[ 2015-05-08T10:45:38+08:00 ] 192.168.11.3 /index.php/country/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_country` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `country_id`,`country_name` FROM `zebra_country` ORDER BY country_id  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:45:40+08:00 ] 192.168.11.3 /index.php/district/viewall/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_district` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `district_id`,`district_name` FROM `zebra_district` WHERE ( country_id=4 ) ORDER BY district_id  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:45:41+08:00 ] 192.168.11.3 /index.php/university/viewall/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_university` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `university_id`,`university_name` FROM `zebra_university` WHERE ( district_id=2 ) ORDER BY university_id  [ RunTime:0.001000s ]
+
+[ 2015-05-08T10:45:42+08:00 ] 192.168.11.3 /index.php/department/viewall/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_department` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `department_id`,`department_name` FROM `zebra_department` WHERE ( university_id=4 ) ORDER BY department_id  [ RunTime:0.012001s ]
+
+[ 2015-05-08T10:45:43+08:00 ] 192.168.11.3 /index.php/major/viewall/25
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_major` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_department` `department`,`zebra_university` `university` WHERE ( major.department_id=department.department_id AND department.university_id=university.university_id AND major.department_id=25 )  [ RunTime:0.056003s ]
+
+[ 2015-05-08T10:45:45+08:00 ] 192.168.11.3 /index.php/major/view/526
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_major` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.*,count(follow.user_id) as followers FROM `zebra_major` `major`,`zebra_follow` `follow` WHERE ( major.major_id=follow.major_id AND major.major_id=526 )  [ RunTime:0.014001s ]
+
+[ 2015-05-08T10:45:47+08:00 ] 192.168.11.3 /index.php/follow/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_follow` [ RunTime:0.002000s ]
+SQL: INSERT INTO `zebra_follow` (`user_id`,`major_id`) VALUES (1057,526) [ RunTime:0.029002s ]
+
+[ 2015-05-08T10:45:53+08:00 ] 192.168.11.3 /index.php/major/view/526
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_major` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.*,count(follow.user_id) as followers FROM `zebra_major` `major`,`zebra_follow` `follow` WHERE ( major.major_id=follow.major_id AND major.major_id=526 )  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:45:54+08:00 ] 192.168.11.3 /index.php/user/rankbymajor/1057/526
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `TOEFL`,`IELTS`,`GRE`,`GMAT`,`GPA`,`experience_id` FROM `zebra_user` WHERE ( user_id=1057 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zebra_experience` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `value` FROM `zebra_experience` WHERE ( experience_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT round(avg(TOEFL),0) as avg,min(TOEFL) as min,max(TOEFL) as max,count(TOEFL) as count FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND TOEFL>0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(TOEFL) FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND TOEFL>=0 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT round(avg(IELTS),1) as avg,min(IELTS) as min,max(IELTS) as max,count(IELTS) as count FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND IELTS>0 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(IELTS) FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND IELTS>=0.0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT round(avg(GRE),0) as avg,min(GRE) as min,max(GRE) as max,count(GRE) as count FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND GRE>0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(GRE) FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND GRE>=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT round(avg(GMAT),0) as avg,min(GMAT) as min,max(GMAT) as max,count(GMAT) as count FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND GMAT>0 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(GMAT) FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND GMAT>=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT round(avg(GPA),2) as avg,min(GPA) as min,max(GPA) as max,count(GPA) as count FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND GPA>0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT count(GPA) FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND GPA>=0.00 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT round(avg(experience.value)) as avg,min(experience.value) as min,max(experience.value) as max,count(experience.value) as count FROM `zebra_user` `user`,`zebra_follow` `follow`,`zebra_experience` `experience` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND user.experience_id=experience.experience_id ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zebra_user` `user`,`zebra_follow` `follow`,`zebra_experience` `experience` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 AND user.experience_id=experience.experience_id AND experience.value>=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `background_id`,`background_name` FROM `zebra_background` ORDER BY background_id  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `background_id` FROM `zebra_user` `user`,`zebra_follow` `follow` WHERE ( user.user_id=follow.user_id AND follow.major_id=526 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zebra_follow` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zebra_follow` WHERE ( major_id=526 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:45:56+08:00 ] 192.168.11.3 /index.php/major/recommandbymajor/526/0/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_major` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_name,major.subject_id,district.country_id FROM `zebra_major` `major`,`zebra_department` `department`,`zebra_university` `university`,`zebra_district` `district` WHERE ( major.department_id=department.department_id AND department.university_id=university.university_id AND university.district_id=district.district_id AND major_id=526 )  [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT major.major_id,major.major_name,major.deadline,department.department_name,university.university_name FROM `zebra_major` `major`,`zebra_department` `department`,`zebra_university` `university`,`zebra_district` `district` WHERE ( major.department_id=department.department_id AND department.university_id=university.university_id AND university.district_id=district.district_id AND district.country_id=4 AND major.subject_id=16 AND major.major_id<>526 AND (major.major_name LIKE '%science%' OR major.major_name LIKE '%organizational%' OR major.major_name LIKE '%change%' OR major.major_name LIKE '%management%') ) ORDER BY major.deadline DESC LIMIT 0, 20   [ RunTime:0.095006s ]
+
+[ 2015-05-08T10:46:25+08:00 ] 192.168.11.3 /index.php/follow/delete
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_follow` [ RunTime:0.002000s ]
+SQL: DELETE FROM `zebra_follow` WHERE ( user_id=1057 and major_id=526 ) [ RunTime:0.054003s ]
+
+[ 2015-05-08T10:52:31+08:00 ] 192.168.11.3 /index.php/country/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_country` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `country_id`,`country_name` FROM `zebra_country` ORDER BY country_id  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:55:12+08:00 ] 192.168.11.3 /index.php/background/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_background`  [ RunTime:0.000000s ]
+
+[ 2015-05-08T10:58:00+08:00 ] 192.168.11.3 /index.php/user/updateAppInfo/1057
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Lib\Core\Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\MyWeb\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_user` [ RunTime:0.003000s ]
+SQL: UPDATE `zebra_user` SET `country_id`=9,`subject_id`=13,`experience_id`=0,`background_id`=0,`TOEFL`=0,`IELTS`='0.0',`GRE`=0,`GMAT`=0,`GPA`='0.00' WHERE ( user_id=1057 ) [ RunTime:0.030002s ]
+

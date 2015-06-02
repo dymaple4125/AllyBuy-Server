@@ -1,0 +1,58 @@
+[ 2015-03-28T22:41:15+08:00 ] 0.0.0.0 /zebra/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.004053s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_background`  [ RunTime:0.002967s ]
+
+[ 2015-03-28T22:41:20+08:00 ] 0.0.0.0 /zebra/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.001237s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_background`  [ RunTime:0.000200s ]
+
+[ 2015-03-28T22:41:47+08:00 ] 0.0.0.0 /zebra/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.001558s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_background`  [ RunTime:0.000221s ]
+
+[ 2015-03-28T22:42:09+08:00 ] 0.0.0.0 /zebra/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.001527s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_background`  [ RunTime:0.000270s ]
+
+[ 2015-03-28T22:42:15+08:00 ] 0.0.0.0 /zebra/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_background` [ RunTime:0.003352s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_background`  [ RunTime:0.000252s ]
+
+[ 2015-03-28T22:42:25+08:00 ] 0.0.0.0 /zebra/admin.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+

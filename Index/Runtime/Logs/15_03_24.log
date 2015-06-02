@@ -1,0 +1,104 @@
+[ 2015-03-24T17:15:44+08:00 ] 0.0.0.0 /zebra/index.php?m=subject&a=viewall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.003213s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.000338s ]
+
+[ 2015-03-24T17:16:08+08:00 ] 0.0.0.0 /zebra/index.php?m=subject&a=viewall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.002480s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.000485s ]
+
+[ 2015-03-24T17:16:16+08:00 ] 0.0.0.0 /zebra/index.php?m=subject&a=viewall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.003145s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.000427s ]
+
+[ 2015-03-24T17:31:00+08:00 ] 0.0.0.0 /zebra/index.php?m=subject&a=viewall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2015-03-24T17:32:36+08:00 ] 0.0.0.0 /zebra/index.php?m=subject&a=viewall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.002805s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.001231s ]
+
+[ 2015-03-24T17:34:46+08:00 ] 0.0.0.0 /zebra/index.php?m=subject&a=viewall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003205s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.003668s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.000406s ]
+
+[ 2015-03-24T17:38:18+08:00 ] 0.0.0.0 /zebra/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+
+[ 2015-03-24T17:58:06+08:00 ] 0.0.0.0 /zebra/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-03-24T17:58:17+08:00 ] 0.0.0.0 /zebra/index.php?m=subject&a=viewall
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.003222s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.000281s ]
+
+[ 2015-03-24T23:39:31+08:00 ] 0.0.0.0 /zebra/index.php/index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005019s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+
+[ 2015-03-24T23:39:45+08:00 ] 0.0.0.0 /zebra/index.php/index/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002634s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+ERR: 非法操作:viewall
+
+[ 2015-03-24T23:39:53+08:00 ] 0.0.0.0 /zebra/index.php/subject/viewall
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002473s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `zebra_subject` [ RunTime:0.066139s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/dingyou/server/zebra/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `zebra_subject`  [ RunTime:0.015383s ]
+

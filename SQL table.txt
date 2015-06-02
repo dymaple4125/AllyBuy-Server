@@ -1,0 +1,92 @@
+
+/**user table**/
+CREATE TABLE allybuy_user(
+user_id int(32) unsigned not null auto_increment,
+facebook_id text not null default '',
+nick_name varchar(50) not null default '',
+password varchar(255) not null default '',
+session_id varchar(255) not null default '',
+email varchar(100) not null default '',
+phone varchar(20) not null default '',
+address varchar(255) not null default '',
+created timestamp not null default current_timestamp,
+primary key(user_id),
+unique(nick_name),
+unique(email),
+index(user_id)
+)engine=myisam default charset=utf8;
+
+/** category table**/
+CREATE TABLE allybuy_category(
+category_id tinyint(8) unsigned not null auto_increment,
+name varchar(100) not null default '',
+description varchar(255) not null default '',
+created timestamp not null default current_timestamp,
+primary key(category_id),
+unique(name),
+index(category_id)
+)engine=myisam default charset=utf8;
+
+
+/** brand table**/
+CREATE TABLE allybuy_brand(
+brand_id smallint(16) unsigned not null auto_increment,
+name varchar(100) not null default '',
+description varchar(255) not null default '',
+created timestamp not null default current_timestamp,
+primary key(brand_id),
+unique(name),
+index(brand_id)
+)engine=myisam default charset=utf8;
+
+/** item table**/
+CREATE TABLE allybuy_item(
+item_id int(20) unsigned not null auto_increment,
+name varchar(200) not null default '',
+thumb varchar(100) not null default '',
+img varchar(255) not null default '',
+description text not null default '',
+brand varchar(100) not null default '',
+origin_place varchar(100) not null default '',
+tags varchar(255) not null default '',
+deadline date default null,
+market_price mediumint(24) not null default 0,
+link varchar(255) not null default '',
+status tinyint(1) not null default 0,
+created timestamp not null default current_timestamp,
+primary key(item_id),
+unique(name),
+unique(thumb),
+index(item_id)
+)engine=myisam default charset=utf8;
+
+/**admin table**/
+CREATE TABLE allybuy_admin(
+admin_id tinyint(5) unsigned not null auto_increment,
+name varchar(100) not null default '',
+password varchar(255) not null default '',
+email varchar(100) not null default '',
+contact varchar(100) not null default '',
+status tinyint(1) not null default 0,
+login_ip varchar(20) not null default '0.0.0.0',
+login_time timestamp default null,
+created timestamp not null default current_timestamp,
+primary key(admin_id),
+unique(name),
+unique(email)
+)engine=myisam default charset=utf8;
+
+/**order table**/
+CREATE TABLE allybuy_order(
+user_id int(32) unsigned not null,
+item_id int(20) unsigned not null,
+phone varchar(20) not null default '',
+address varchar(255) not null default '',
+expire_date date default null,
+deposit mediumint(24) unsigned not null default 0,
+offer mediumint(24) unsigned not null default 0,
+process_state tinyint(3) not null default 0,
+created timestamp not null default current_timestamp,
+canceled timestamp default null,
+primary key(user_id, item_id)
+)engine=myisam default charset=utf8;

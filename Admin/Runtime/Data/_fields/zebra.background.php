@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'background_id', 1 => 'background_name', '_autoinc' => true, '_pk' => 'background_id', '_type' => array ( 'background_id' => 'tinyint(8)', 'background_name' => 'varchar(50)', ), );?>

@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'subject_id', 1 => 'subject_name', '_autoinc' => true, '_pk' => 'subject_id', '_type' => array ( 'subject_id' => 'tinyint(8)', 'subject_name' => 'varchar(100)', ), );?>

@@ -1,0 +1,10 @@
+{
+    "elements": {
+        "foreach": {}
+    },
+    "attributes": {
+        "aria-expanded": {
+            "context": "button"
+        }
+    }
+}

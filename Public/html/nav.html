@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">MajorBox</a>
+        </div>
+        <div id="nav_var" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Basic <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/admin.php/subject">Subject</a></li>
+                        <li><a href="/admin.php/background">Background</a></li>
+                        <li><a href="/admin.php/experience">Experience</a></li>
+                        <li><a href="/admin.php/country">Country->Department</a></li>
+                        <li><a href="/admin.php/service">Service</a></li>
+                        <li><a href="/admin.php/promotion">Promotion</a></li>
+                    </ul>
+                 </li>
+                <li><a href="/admin.php/major">Major</a></li>
+                <li><a href="/admin.php/user">User</a></li>
+                <li><a href="/admin.php/prize">Prize</a></li>
+                <li><a href="/admin.php/admin">Admin</a></li>
+<!--                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Users <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/admin.php/user">User</a></li>
+                        <li><a href="/admin.php/admin">Admin</a></li>
+                    </ul>
+                 </li>-->
+            </ul>
+            <div class="navbar-form form-group form-inline navbar-right">
+                <label id="admin_name" style="color: #fff;font-weight: normal;"></label>
+                <button id="submit_btn" class="btn btn-danger" onclick="location.href='/admin.php/admin/logout'">登出</button>
+            </div>
+
+<!--            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/admin.php/admin/logout">登出</a></li>
+            </ul>            -->
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>

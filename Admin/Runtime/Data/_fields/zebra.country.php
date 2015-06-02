@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'country_id', 1 => 'country_name', '_autoinc' => true, '_pk' => 'country_id', '_type' => array ( 'country_id' => 'tinyint(8)', 'country_name' => 'varchar(200)', ), );?>
