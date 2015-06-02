@@ -19,7 +19,7 @@ class AdminAction extends CommonAction{
         $admin_list   =   M('admin')->where('admin_id<>0')->select();
 
         $admin_list   =   $admin_list!=NULL ? $admin_list : array();
-        
+
         $data_array =   array('data'=>$admin_list);
 
         //assingadmin list
@@ -138,7 +138,7 @@ class AdminAction extends CommonAction{
         //destrop session
         session_unset();
         session_destroy();
-
+        
         //redirect
         $this->success('您已经成功登出', U('login/index', '', ''));
     }

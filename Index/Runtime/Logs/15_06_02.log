@@ -5,3 +5,10 @@ INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
 ERR: 无法加载模块:Index
 
+[ 2015-06-02T09:55:10+08:00 ] 127.0.0.1 /allybuy/
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\MyWeb\allybuy\ThinkPHP\Common\common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Index
+

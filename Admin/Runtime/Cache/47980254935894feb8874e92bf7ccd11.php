@@ -37,7 +37,7 @@ and open the template in the editor.
     <body>
         <div class="container">
             <form class="form-signin" action="<?php echo U('login', '', '');?>" method="POST">
-                <h2 class="form-signin-heading">MajorBox后台登陆</h2>
+                <h2 class="form-signin-heading">猎购盟后台登陆</h2>
                 <div class="form-group">
                     <label for="inputUsername">用户名</label>
                     <input type="text" name="username" id="username" class="form-control" placeholder="Username" required autofocus>

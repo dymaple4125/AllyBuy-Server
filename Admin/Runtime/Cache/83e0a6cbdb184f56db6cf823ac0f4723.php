@@ -9,27 +9,27 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <!-- 新 Bootstrap 核心 CSS 文件 -->
         <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
 
         <!-- 可选的Bootstrap主题文件（一般不用引入） -->
         <link rel="stylesheet" href="__PUBLIC__/css/bootstrap-theme.min.css">
-	
+
 	<link rel="stylesheet" href="__PUBLIC__/css/login.css">
-        
+
         <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
         <script src="__PUBLIC__/js/jquery/jquery-1.11.2.js"></script>
 
         <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
         <script src="__PUBLIC__/js/bootstrap.min.js"></script>
-        
-       
+
+
     </head>
     <body>
         <div class="container">
         <form class="form-signin" action="<?php echo U('register', '', '');?>" method="POST">
-            <h2 class="form-signin-heading">MajorBox管理员注册</h2>
+            <h2 class="form-signin-heading">猎购盟管理员注册</h2>
             <div class="form-group">
                 <label for="inputUsername">用户名</label>
                 <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
@@ -54,7 +54,7 @@ and open the template in the editor.
             <a href="<?php echo U('login/index', '', '');?>">返回登陆</a>
         </form>
         </div>
-        
-        
+
+
     </body>
 </html>
